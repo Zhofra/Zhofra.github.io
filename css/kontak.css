@@ -1,0 +1,115 @@
+.form{
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    padding: 40px;
+    color: white;
+    margin-top: 80px;
+}
+h2{
+    text-align: center;
+    font-family: Agency FB;
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: rgba(0,0,0,0.10);
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+
+}
+input[type=submit]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border:none;
+    background: greenyellow;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: honeydew;
+}
+input[type=submit]:hover{
+    background: lawngreen;
+    opacity: 0.7;
+
+}
+html,body{
+    margin: 0;
+    font-family: Century Gothic;
+}
+body{
+    background-image: url(image/crypto.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logos{
+    width: 150px ;
+    padding-top: 5px;
+    padding-left: 70px;
+    
+}
+
+
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    margin-right: 36px;
+    font-weight: 600;
+    margin-top: 10px ;
+    padding: 5px 20px;
+    border: 2px black;
+    cursor: pointer;
+    background: transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: rgb(170, 7, 7);
+    color: black;
+}
+.footer-section {
+	background: #212121;
+	padding: 19px 40px;
+	position: relative;
+}
+
+.footer-social {
+    text-align: right;
+	margin-right: 30px;
+	height: 40px;
+	padding-top: 40px;
+}
+
+.footer-social a {
+	margin-right: 50px;
+}
+
+.icon{
+	width: 20px;
+}
+.footer-copyright {
+	color: #fff;
+	font-size: 11px;
+	font-weight: 500;
+    padding: 4px 0;
+}

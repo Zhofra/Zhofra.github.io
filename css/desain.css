@@ -1,0 +1,74 @@
+html,body{
+    margin: 0;
+    font-family: Century Gothic;
+}
+body{
+    background-image: url(image/backgorund.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    width: 150px ;
+    padding-top: 5px;
+    padding-left: 70px;
+    
+}
+
+
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    margin-right: 30px;
+    font-weight: 600;
+    margin-top: 10px ;
+    padding: 5px 20px;
+    cursor: pointer;
+    background: transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: rgb(170, 7, 7);
+    color: black;
+}
+.judul{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: rgb(105, 255, 67);
+}
+.button{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: rgb(139, 113, 55);
+}
+.btn {
+    border: none;
+    font-size: 14px;
+    padding: 24px 47px;
+    text-decoration: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    background: #000000;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: rgb(170, 7, 7);
+    color: black;
+}
+
+
